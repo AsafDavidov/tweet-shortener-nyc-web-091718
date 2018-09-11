@@ -24,5 +24,4 @@ def word_substituter(string_tweets)
     end
     shortened_arr << word
   end
-  substitutions
 end
