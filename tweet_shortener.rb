@@ -18,7 +18,7 @@ def word_substituter(string_tweets)
   shortened_arr = []
   substitutions_keys = substitutions.keys
   tweet_array.each_with_index do |word|
-    substitutions_keys.each do |key|
+    substitutions.keys.each do |key|
       if word == key
         word = substitutions[key]
       end
