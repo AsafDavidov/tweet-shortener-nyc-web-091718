@@ -24,5 +24,5 @@ def word_substituter(string_tweets)
     end
     shortened_arr << word
   end
-  shortened_arr
+  shortened_arr.join(" ")
 end
