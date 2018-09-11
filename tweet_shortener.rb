@@ -13,7 +13,8 @@ def dictionary
   }
 end
 def word_substituter(string_tweets)
-  substitions = dictionary
+  substitutions = dictionary
   tweet_array = string_tweets.split(" ")
-  substions_keys = substions.keys
+  substitutions_keys = substitutions.keys
+  substitutions_keys
 end
