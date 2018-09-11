@@ -23,6 +23,7 @@ def word_substituter(string_tweets)
         word = substitutions[key]
       end
     end
+    shortened_arr << word
   end
   tweet_array
 end
