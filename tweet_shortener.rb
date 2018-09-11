@@ -16,5 +16,5 @@ def word_substituter(string_tweets)
   substitutions = dictionary
   tweet_array = string_tweets.split(" ")
   substitutions_keys = substitutions.keys
-  substitutions_keys
+  tweet_array
 end
