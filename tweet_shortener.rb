@@ -23,5 +23,5 @@ def word_substituter(string_tweets)
       end
     end
   end
-  
+  tweet_array
 end
