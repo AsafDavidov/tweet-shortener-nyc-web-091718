@@ -1,6 +1,6 @@
 # Write your code here.
 def dictionary
-  words_to_be_substituted{
+  dictionary{
     "hello" =>"hi",
     "to" =>"2",
     "two" =>"2",
@@ -13,5 +13,5 @@ def dictionary
   }
 end
 def word_substituter(string_tweets)
-  
+  tweet_array = string_tweets.split(" ")
 end
