@@ -19,5 +19,9 @@ def word_substituter(string_tweets)
   tweet_array.each_with_index do |word|
     substitutions_keys.each do |key|
       if word == key
-        word=key
+        word = substitutions[key]
+      end
+    end
+  end
+  
 end
